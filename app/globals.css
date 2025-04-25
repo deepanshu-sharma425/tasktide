@@ -1,0 +1,65 @@
+.maindivlogin{
+  display: flex;
+  justify-content: space-between;
+  background-color:#f8f8f8;
+
+}
+.loginpageinfo{
+  margin: 100px;
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.imagelogin{
+  width: 50vw;
+  height: 100vh;
+}
+.imagelogin img{
+  height: 70vh;
+  width: 50vw;
+
+}
+.signingoogle{
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  padding-left: 20px;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+.signingoogle:hover{
+  cursor: pointer;
+}
+.signingoogle img{
+  width: 25px;
+  height: 25px;
+}
+.buttonsinin{
+  background-color: #ea444d;
+  text-align: center;
+  padding: 17px;
+  border-radius: 20px;
+  width: 25vw;
+}
+.buttonsinin button{
+  background-color: #ea444d;
+  border: none;
+  color: white;
+}
+.welcomemessage{
+  display: flex;
+  flex-direction: column;
+  
+}
+.welcomemessage p{
+  color:#625c5c ;
+  font-size: 18px;
+}
+.emaillogin{
+  display: flex;
+  flex-direction: column;
+
+}

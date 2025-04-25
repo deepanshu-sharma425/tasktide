@@ -1,5 +1,5 @@
 'use client';
-
+import '../globals.css'
 import { useState } from 'react';
 
 export default function SignupPage() {
@@ -29,29 +29,24 @@ export default function SignupPage() {
     return (
         <div>
             <div className="maindivlogin">
-                <div className="imagelogin">
-                    <img src="sideimagelogin.png" alt="Signup" />
-                </div>
+                
                 <div className="loginpageinfo">
                     <div className="welcomemessage">
                         <h1>Create Account</h1>
-                        <br />
+                        
                         <p>Sign up to get started with tasktide!</p>
                     </div>
                     <div className="emaillogin">
                         <label htmlFor="email">Email</label>
-                        <br />
-                        <input type="email" id='email' value={email} onChange={(e) => setEmail(e.target.value)} />
+                        <input type="email" placeholder='Enter your Email' id='email' value={email} onChange={(e) => setEmail(e.target.value)} />
                     </div>
                     <div className="emaillogin">
                         <label htmlFor="pass">Password</label>
-                        <br />
-                        <input type="password" id='pass' value={password} onChange={(e) => setPassword(e.target.value)} />
+                        <input type="password" placeholder='Enter your Password' id='pass' value={password} onChange={(e) => setPassword(e.target.value)} />
                     </div>
                     <div className="emaillogin">
                         <label htmlFor="confirmPass">Confirm Password</label>
-                        <br />
-                        <input type="password" id='confirmPass' value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} />
+                        <input type="password" placeholder='Confirm your Password' id='confirmPass' value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} />
                     </div>
                     <div className="buttonsinin">
                         <button onClick={handleSubmit}>Sign Up</button>
@@ -60,6 +55,9 @@ export default function SignupPage() {
                         <img src="googlelogo.png" alt="Google" />
                         <p>Sign up with Google</p>
                     </div>
+                </div>
+                <div className="imagelogin">
+                    <img src="sideimagelogin.png" alt="Signup" />
                 </div>
             </div>
         </div>
