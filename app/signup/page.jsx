@@ -49,7 +49,7 @@ export default function SignupPage() {
                         <input type="password" placeholder='Confirm your Password' id='confirmPass' value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} />
                     </div>
                     <div className="buttonsinin">
-                        <button onClick={handleSubmit}>Sign Up</button>
+                        <button onClick={handleSubmit}><strong>Sign Up</strong></button>
                     </div>
                     <div className="signingoogle">
                         <img src="googlelogo.png" alt="Google" />

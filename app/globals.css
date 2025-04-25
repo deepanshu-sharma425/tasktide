@@ -29,7 +29,12 @@
   align-items: center;
   gap: 10px;
   justify-content: center;
+  
 }
+.signingoogle p{
+  font-size: 18px;
+}
+
 .signingoogle:hover{
   cursor: pointer;
 }
@@ -56,10 +61,46 @@
 }
 .welcomemessage p{
   color:#625c5c ;
-  font-size: 18px;
+  font-size: 19.5px;
+}
+.welcomemessage h1{
+  font-size: 37px;
 }
 .emaillogin{
   display: flex;
   flex-direction: column;
+  gap: 10px;
 
+}
+.emaillogin label{
+  font-weight: 500;
+  font-size: 19px;
+}
+input {
+  padding:13px 10px;
+  border: 2px solid #ccc; 
+  border-radius: 20px;    
+  outline: none;          
+  transition: border-color 0.3s ease;  
+  font-size: 16px;
+}
+
+
+input:focus {
+  border-color: #ffffff; 
+  box-shadow: none;       
+}
+
+
+input:active {
+  border-color: #ccc;     
+  box-shadow: none;        
+}
+
+
+input::placeholder {
+  color: #888; 
+}
+.buttonsinin strong{
+  font-size: 16.5px;
 }
