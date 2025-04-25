@@ -104,3 +104,17 @@ input::placeholder {
 .buttonsinin strong{
   font-size: 16.5px;
 }
+.checkboxfoegetpass{
+  display: flex;
+  justify-content: space-between;
+  
+  align-items: center;
+}
+.checkbox{
+  display: flex;
+  gap: 5px;
+}
+.checkboxfoegetpass p{
+  font-size: 17.5px;
+  color: #625c5c;
+}

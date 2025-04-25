@@ -1,5 +1,5 @@
 'use client';
-
+import '../globals.css'
 import { useState } from 'react';
 
 
@@ -30,23 +30,21 @@ export default function SigninPage() {
     return (
         <div>
             <div className="maindivlogin">
-                <div className="imagelogin">
-                    <img src="sideimagelogin.png/" alt="" />
-                </div>
+                
                 <div className="loginpageinfo">
                     <div className="welcomemessage">
                         <h1>Welcome Back</h1>
-                        <br />
+                        
                         <p>Welcome back! Please enter your details.</p>
                     </div>
                     <div className="emaillogin">
                         <label htmlFor="email">Email</label>
-                        <br />
+                        
                         <input type="email" id='email' value={email} onChange={handleemail} />
                     </div>
                     <div className="emaillogin">
                         <label htmlFor="pass">Password</label>
-                        <br />
+                        
                         <input type="password" id='pass' value={password} onChange={handlepass} />
                     </div>
                     <div className="checkboxfoegetpass">
@@ -58,7 +56,7 @@ export default function SigninPage() {
                        
                     </div>
                     <div className="buttonsinin">
-                        <button onClick={handleSubmit}>Sign In</button>
+                        <button onClick={handleSubmit}><strong>Sign In</strong></button>
                     </div>
                     <div className="signingoogle">
                         <img src="googlelogo.png" alt="" />
@@ -66,6 +64,9 @@ export default function SigninPage() {
                     </div>
 
 
+                </div>
+                <div className="imagelogin">
+                    <img src="sideimagelogin.png/" alt="" />
                 </div>
             </div>
 
